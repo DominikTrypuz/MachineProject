@@ -4,7 +4,7 @@ import pl.machineproject.machineproject.machine1.Machine1;
 
 import java.util.Scanner;
 
-public class Main {
+public class Start {
 
     public static void main(String[] args) {
 
