@@ -1,9 +1,8 @@
-package pl.machineproject.machineproject.machine1;
+package pl.machineproject.machineproject.machine1.unitTests;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+import pl.machineproject.machineproject.machine1.Machine1;
 
 class Machine1Test {
 
