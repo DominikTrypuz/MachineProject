@@ -18,18 +18,19 @@ public class Machine1 {
         return false;
     }
 
-    public void analyzeMachineByParams(int valueOne, int valueTwo, int valueThree) {
+    public boolean analyzeMachineByParams(int valueOne, int valueTwo, int valueThree) {
 
         boolean isValueOneCorrect = isCorrect(valueOne, ParamValues.VALUE_ONE);
         boolean isValueTwoCorrect = isCorrect(valueTwo, ParamValues.VALUE_TWO);
         boolean isValueThreeCorrect = isCorrect(valueThree, ParamValues.VALUE_THREE);
 
         if (isValueOneCorrect && isValueTwoCorrect && isValueThreeCorrect) {
-
             System.out.println("Correct values");
+            return true;
         } else {
-
             System.out.println("Incorrect values");
+            return false;
         }
+
     }
 }
