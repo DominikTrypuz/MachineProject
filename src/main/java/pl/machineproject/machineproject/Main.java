@@ -1,15 +1,15 @@
 package pl.machineproject.machineproject;
 
-import pl.machineproject.machineproject.machine1.Machine1;
+import pl.machineproject.machineproject.machine.Machine;
 
 import java.util.Scanner;
 
-public class Start {
+public class Main {
 
-    public static void main(String[] args) {
+    public static void main() {
 
         Scanner scanner = new Scanner(System.in);
-        Machine1 machine1 = new Machine1();
+        Machine machine1 = new Machine();
 
         int valueOne;
         int valueTwo;
